@@ -41,6 +41,6 @@ jobs:
         uses: JosephDuffy/wait-for-netlify-action@v1.0
         with:
           # The Netlify site name to test against
-          site_name: https://yoursdaily.netlify.app/
+          site_name: yoursdaily
           # The max time to run the action
           max_timeout: # optional
