@@ -22,7 +22,7 @@ function getData() {
             }
             this.buttonLabel = 'Submitting...'
             this.loading = true;
-            fetch('https://wqjq4li095.execute-api.ap-south-1.amazonaws.com/v1/', {
+            fetch('https://bh4klbbs7i.execute-api.ap-south-1.amazonaws.com/postEmail', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
